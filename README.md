@@ -1,0 +1,2 @@
+# suumo_extension
+Google chromeの拡張アプリです。Suumoの賃貸画面で住所をクリックするとハザードマップ情報を見ることができます。
