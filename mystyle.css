@@ -1,0 +1,9 @@
+.cassetteitem_detail-col1{
+    text-decoration:underline;
+    text-decoration-color:#FFCC33;
+}
+
+.cassetteitem_detail-col1 {
+cursor: pointer;
+cursor: hand;
+}

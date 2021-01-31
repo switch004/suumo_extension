@@ -1,0 +1,21 @@
+{
+  "name": "Suumo Extension",
+  "description": "hazard map from Suumo",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions":[
+    "https://map.yahooapis.jp/",
+    "background"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.suumo.jp/*"],
+      "js": ["content_script.js"],
+      "css": ["mystyle.css"]
+    }
+  ]
+}
